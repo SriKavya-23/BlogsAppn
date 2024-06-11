@@ -1,7 +1,6 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -12,15 +11,26 @@
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
-    "body-parser": "^1.20.0",
+    "body-parser": "^1.20.2",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
     "gridfs-stream": "^1.1.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.3.4",
+    "mongoose": "^6.13.0",
     "multer": "^1.4.4",
-    "multer-gridfs-storage": "^5.0.2",
-    "nodemon": "^2.0.16"
+    "multer-gridfs-storage": "^5.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SriKavya-23/BlogsAppn.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SriKavya-23/BlogsAppn/issues"
+  },
+  "homepage": "https://github.com/SriKavya-23/BlogsAppn#readme",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.3"
   }
 }
